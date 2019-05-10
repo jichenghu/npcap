@@ -60,6 +60,10 @@
 
 #define WIN9X_COMPAT_SPINLOCK
 
+// the following two lines were added by jicheng hu @ Wuhan University
+#define	NDIS61
+#define	HAVE_WFP_LOOPBACK_SUPPORT
+
 #include <ntddk.h>
 #include <ndis.h>
 #include <wmistr.h>
